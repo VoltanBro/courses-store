@@ -3,8 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.0'
 
+gem 'devise'
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 gem 'font-awesome-sass', '~> 5.13.0'
-gem 'bootstrap', '~> 5.0.0.alpha1'
+gem 'bootstrap', '~> 4.3.1'
 gem "haml-rails", "~> 2.0"
 gem 'jquery-rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
