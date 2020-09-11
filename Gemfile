@@ -5,6 +5,7 @@ ruby '2.7.0'
 
 gem 'devise'
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+gem 'friendly_id', '~> 5.4.0'
 gem 'font-awesome-sass', '~> 5.13.0'
 gem 'bootstrap', '~> 4.3.1'
 gem "haml-rails", "~> 2.0"
